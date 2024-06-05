@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+    /* padding-top: 20px; Add padding to account for fixed navbar */
+  }
+  .para{
+    color: rgba(6, 59, 73, 0.9);
+    margin-left: 240px;
+    font-family: "Cookie", cursive;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }

@@ -1,0 +1,8 @@
+.playlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 160px;
+    padding: 0 10px 10px 50px;
+  }
+  

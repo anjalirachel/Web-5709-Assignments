@@ -1,0 +1,41 @@
+.sidebar {
+    width: 200px;
+    background: linear-gradient(rgba(135, 165, 174, 0.9),rgba(64, 142, 165, 0.9));
+    padding: 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 65px; /* Adjust according to the navbar height */
+    bottom: 115px; /* Adjust according to the footer height */
+    left: 0;
+  }
+  .list{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(1, 16, 22);          
+    padding: 10px;
+  }
+  .list a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+
+  .sidebar .list:hover {
+    background-color: rgba(165, 137, 177, 0.2);
+    color: #320541;
+    border-radius: 5px;
+  }
+
+  li{
+    width: 100px;
+    height: 30px;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  hr{
+    top: 200px;
+    width: 145px;
+  }
