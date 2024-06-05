@@ -18,6 +18,7 @@ const App = () => {
 
   const handleNavigation = (page) => {
     setCurrentPage(page);
+    setSelectedPlaylist(null); // Reset selected playlist when navigating to a new page
   };
 
   const handlePlaylistSelection = (playlist, songs) => {
@@ -27,9 +28,9 @@ const App = () => {
 
   return (
     <div className="app">
-      <Navbar />
+      <Navbar onNavigate={handleNavigation} />
       <div className="main-content">
-        <Sidebar />
+        <Sidebar onNavigate={handleNavigation} />
         {currentPage === 'home' && (
           <>
             <ImageSlider />

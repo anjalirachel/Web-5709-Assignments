@@ -27,7 +27,7 @@
 
   li{
     width: 100px;
-    height: 30px;
+    height: 40px;
   }
 
   ul{
@@ -36,6 +36,6 @@
   }
 
   hr{
-    top: 200px;
+    top: 100px;
     width: 145px;
   }

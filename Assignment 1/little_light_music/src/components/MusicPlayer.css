@@ -10,63 +10,66 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 30px 10px 10px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     height: 13.8%;
     text-align: center;
-  }
+}
   
-  .music-info {
+.music-info {
     display: flex;
     align-items: center;
-  }
+}
   
-  .album-art {
+.album-art {
     width: 80px;
-    height: 80px;
+    height: 80px; 
     border-radius: 5px;
     margin-right: 15px;
-  }
+}
   
-  .song-details {
-    margin-right: 20px;
+.song-details {
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
 }
   
-  .song-name {
-    font-size: 15px;
+.song-name {
+    font-size: 15px; 
     font-weight: bold;
-  }
+}
   
-  .artist-name {
-    font-size: 15px;
+.artist-name {
+    font-size: 14px; 
     color: #191717;
-  }
+}
   
-  .like-button {
+.like-button {
     background: none;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px; /* Decreased font size */
     cursor: pointer;
-  }
+}
   
-  .music-controls, .additional-controls {
+.music-controls, .additional-controls {
     display: flex;
     align-items: center;
-  }
+    padding: 30px;
+
+}
   
-  .control-button {
+.control-button {
     background: none;
     border: none;
     color: white;
     font-size: 20px;
     cursor: pointer;
-    margin: 0 10px;
-  }
+    width: 30px; 
+    height: 30px;
+    margin: 0 10px 10px 5px;
+}
   
-  .control-button:hover {
+.control-button:hover {
     color: #ddd;
-  }
-  
+}

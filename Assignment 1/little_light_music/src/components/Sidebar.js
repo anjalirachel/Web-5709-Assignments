@@ -1,16 +1,18 @@
+// src/components/Sidebar.js
 import React from 'react';
 import './Sidebar.css';
 
-const Sidebar = () => {
+const Sidebar = ({ onNavigate }) => {
   return (
     <div className="sidebar">
-     <ul>
-        <li><a href="#MainPage" className='list'>Main Page</a></li>
+      <ul>
+        <li><a href="#MainPage" className='list' onClick={() => onNavigate('home')}>Main Page</a></li>
         <li><a href="#Albums" className='list'>Albums</a></li>
-        <li><a href="#Settings" className='list'>Setting</a></li>
-        <hr></hr>
+        <li><a href="#Settings" className='list'>Settings</a></li>
+        <hr />
+        <br />
         <li><a href="#Favorites" className='list'>Favorites</a></li>
-     </ul>
+      </ul>
     </div>
   );
 };

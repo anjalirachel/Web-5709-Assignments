@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import './MusicPlayer.css';
 import MusicImage from '../assets/album10.jpg';
+import play from '../assets/play-button.png';
+import pause from '../assets/pause.png';
+import backward from '../assets/backward.png';
+import forward from '../assets/forward.png';
+import shuffle from '../assets/shuffle.png';
+import repeat from '../assets/repeat.png';
 
 const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -25,15 +31,15 @@ const MusicPlayer = () => {
         <button className="like-button">&#10084;</button>
       </div>
       <div className="music-controls">
-        <button className="control-button">⏮</button>
+        <img src={backward} alt="Backward" className="control-button" />
         <button className="control-button" onClick={handlePlayPause}>
-          {isPlaying ? '⏸' : '⏯'}
+          <img className="control-button" src={isPlaying ? pause : play} alt="Play/Pause" />
         </button>
-        <button className="control-button">⏭</button>
+        <img src={forward} alt="Forward" className="control-button" />
       </div>
       <div className="additional-controls">
-        <button className="control-button">🔀</button>
-        <button className="control-button">🔁</button>
+        <img src={shuffle} alt="Shuffle" className="control-button" />
+        <img src={repeat} alt="Repeat" className="control-button" />
       </div>
     </div>
   );
