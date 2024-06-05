@@ -55,7 +55,7 @@
 .music-controls, .additional-controls {
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
 
 }
   
@@ -67,7 +67,8 @@
     cursor: pointer;
     width: 30px; 
     height: 30px;
-    margin: 0 10px 10px 5px;
+    margin: 0 40px 5px 0px;
+    align-self: center;
 }
   
 .control-button:hover {
