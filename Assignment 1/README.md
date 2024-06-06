@@ -1,58 +1,15 @@
 # CSCI 5709 Assignments
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom]
-
-(#editing-this-readme)!
-
 # Assignment 1
 
-- _Date Created_: 4 June 2024
-- _Lab URL_: <https://git.cs.dal.ca/abenjamin/csci-5709-assignments/-/tree/main/Assignment%201?ref_type=heads/>
-- _Git URL_: <http://example.com/>
+- _Date Created_: 02 June 2024
+- _Last Modification Date_: 05 June 2024
+- _Git URL_: <https://git.cs.dal.ca/abenjamin/csci-5709-assignments/-/tree/main/Assignment%201?ref_type=heads/>
+- _Netlify URL_: <https://666110fbf1085d2df75d4e5d--loquacious-youtiao-ac2058.netlify.app/>
 
 ## Authors
 
-**[Optional]** If what is being submitted is an individual Lab or Assignment, you may simply include your name and email address. Otherwise list the members of your group.
-
-- [Name](an653262@dal.ca) - _Maintainer_
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://git.cs.dal.ca/abenjamin/csci-5709-assignments.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.cs.dal.ca/abenjamin/csci-5709-assignments/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- Anjali Rachel Benjamin (an633262@dal.ca) - Owner
 
 ---
 
@@ -70,6 +27,7 @@ To have a local copy of this lab / assignnment / project up and running on your 
 Node.js
 npm
 Visual Studio Code
+React.js
 
 ```
 
@@ -98,27 +56,9 @@ Start the npm server to see your react app run locally
 
 ```
 
-## Running the tests
-
-If needing to run automated tests, then explain how to run the automated tests for this system. If this section is not needed, ** you may delete **.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
+
+I created a new private repository on github for Assignment 1 project deployment and then I mirrored my gitlab repository with the github repository. I pushed my code to gitlab. Because of mirroring my project was reflected automatically to my github account. Then, I imported the assignment 1 project on netlify from github and setup build settings to deploy the application. Finally, it was deployed and live on the above mentioned link.
 
 1. First login with your Github account.
 2. Authorize Netlify.
@@ -133,65 +73,12 @@ Give an example
 
 - [React.js](https://react.dev/learn/) - The web framework used
 - [Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) - The deployment application used
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Sources Used
-
-If in completing your lab / assignment / project you used any interpretation of someone else's code, then provide a list of where the code was implemented, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
-
-### File Name
-
-_Lines ## - ##_
-
-```
-Copy and paste your code on lines mentioned
-
-```
-
-The code above was created by adapting the code in [NAME](link) as shown below:
-
-```
-Copy and paste the snippet of code you are referencing
-
-```
-
-- <!---How---> The code in [NAME](link) was implemented by...
-- <!---Why---> [NAME](link)'s Code was used because...
-- <!---How---> [NAME](link)'s Code was modified by...
-
-_Repeat as needed_
-
-### File Name
-
-_Lines ## - ##_
-
-```
-Copy and paste your code on lines mentioned
-
-```
-
-The code above was created by adapting the code in [NAME](link) as shown below:
-
-```
-Copy and paste the snippet of code you are referencing
-
-```
-
-- <!---How---> The code in [NAME](link) was implemented by...
-- <!---Why---> [NAME](link)'s Code was used because...
-- <!---How---> [NAME](link)'s Code was modified by...
-
-_Repeat as needed_
 
 ## Artificial Intelligence Tools Used
 
 If in completing your lab / assignment / project you used any Artificial Intelligence Tools or Plugins, then provide a list of the tools or plugins used, the prompt used, the code generated by the AI, where the code was implemented, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
 
 - [Chat GPT](http://www.dropwizard.io/1.0.2/docs/) - The AI Tool used
-- [Name of Tool](http://www.dropwizard.io/1.0.2/docs/) - The AI Plugin used
-- [Name of Tool](http://www.dropwizard.io/1.0.2/docs/) - The AI Tool used
 
 ### Prompt Used on _NAME OF AI TOOL_
 
@@ -200,56 +87,293 @@ If in completing your lab / assignment / project you used any Artificial Intelli
 
 ```
 
-The code prompt above was used [NAME](link) to generate the code shown below:
+Creating an image slider in React involves several steps. Below is a comprehensive guide to create a simple yet functional image slider using React. We'll use hooks for state management and CSS for styling.
 
-```
-Copy and paste the entirety of the code generated by the AI Tool listed above.
+### Step-by-Step Guide
 
-```
+#### Step 1: Create a New React Project (if you don't have one)
 
-```
-- How to navigate to another page after a click in React
+If you don't already have a React project, you can create one using Create React App:
 
-```
-
-The code prompt above was used [NAME](link) to generate the code shown below:
-
-```
-Copy and paste the entirety of the code generated by the AI Tool listed above.
-
+```bash
+npx create-react-app image-slider
+cd image-slider
+npm start
 ```
 
-#### File Name
+#### Step 2: Create the Image Slider Component
 
-_Lines ## - ##_
+1. Create a new file for the image slider component, for example, `ImageSlider.js`.
+
+```jsx
+// src/ImageSlider.js
+import React, { useState } from "react";
+import "./ImageSlider.css"; // Import CSS file for styling
+
+const ImageSlider = ({ images }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  return (
+    <div className="slider">
+      <button className="left-arrow" onClick={prevSlide}>
+        &#10094;
+      </button>
+      <div className="slider-wrapper">
+        {images.map((image, index) => (
+          <div
+            className={index === currentIndex ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === currentIndex && (
+              <img src={image} alt={`Slide ${index}`} className="image" />
+            )}
+          </div>
+        ))}
+      </div>
+      <button className="right-arrow" onClick={nextSlide}>
+        &#10095;
+      </button>
+    </div>
+  );
+};
+
+export default ImageSlider;
+```
+
+2. Create a CSS file for styling the image slider.
+
+```css
+/* src/ImageSlider.css */
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+```
+
+#### Step 3: Use the Image Slider Component in Your App
+
+1. Update your `App.js` or create a new component to use the `ImageSlider` component.
+
+```jsx
+// src/App.js
+import React from "react";
+import ImageSlider from "./ImageSlider";
+
+const images = [
+  "https://via.placeholder.com/600x400?text=Slide+1",
+  "https://via.placeholder.com/600x400?text=Slide+2",
+  "https://via.placeholder.com/600x400?text=Slide+3",
+];
+
+const App = () => {
+  return (
+    <div className="App">
+      <h1>Image Slider</h1>
+      <ImageSlider images={images} />
+    </div>
+  );
+};
+
+export default App;
+```
+
+2. Make sure to include the `ImageSlider.css` file in your `ImageSlider` component file.
+
+#### Summary
+
+In this guide, we created a simple image slider in React using hooks and CSS for styling. The slider includes left and right navigation buttons to switch between images. This basic structure can be extended with more features such as auto-play, pagination dots, or animations for a more enhanced user experience.
 
 ```
-Copy and paste your code on the lines mentioned
 
 ```
 
-- <!---How---> The code in [NAME](link) was implemented by...
-- <!---Why---> [NAME](link)'s Code was used because...
-- <!---How---> [NAME](link)'s Code was modified by...
-
-### Prompt Used on _NAME OF AI TOOL_
-
-```
-Copy and paste the prompt used
+- I have a playlist grid from where if I click it should go to a page where all music will be there. So basically I need to navigate to other page. And using react router is giving me error. So please provide me with other options
 
 ```
 
-The code prompt above was used [NAME](link) to generate the code shown below:
+Using window.location (Not Ideal for SPAs)
+This method causes a full page reload, but it is a straightforward alternative.
+
+jsx
+Copy code
+const PlaylistGrid = () => {
+const handleClick = () => {
+window.location.href = '/music';
+};
+
+return (
+
+<div>
+<h1>Playlist Grid</h1>
+<div onClick={handleClick} style={{ cursor: 'pointer' }}>
+Go to Music Page
+</div>
+</div>
+);
+};
+
+export default PlaylistGrid;
+
+Step-by-Step Guide
+Step 1: Create a Navigation Context
+First, create a navigation context that will provide the current page and the onNavigate function.
+
+jsx
+Copy code
+// NavigationContext.js
+import React, { createContext, useContext, useState } from 'react';
+
+const NavigationContext = createContext();
+
+export const NavigationProvider = ({ children }) => {
+const [currentPage, setCurrentPage] = useState('playlist'); // default page
+
+const onNavigate = (page) => {
+setCurrentPage(page);
+};
+
+return (
+<NavigationContext.Provider value={{ currentPage, onNavigate }}>
+{children}
+</NavigationContext.Provider>
+);
+};
+
+export const useNavigation = () => useContext(NavigationContext);
+Step 2: Create Components and Use the Navigation Context
+Create your components that will use the onNavigate function provided by the Navigation Context.
+
+jsx
+Copy code
+// PlaylistGrid.js
+import React from 'react';
+import { useNavigation } from './NavigationContext';
+
+const PlaylistGrid = () => {
+const { onNavigate } = useNavigation();
+
+return (
+
+<div>
+<h1>Playlist Grid</h1>
+<div onClick={() => onNavigate('music')} style={{ cursor: 'pointer' }}>
+Go to Music Page
+</div>
+</div>
+);
+};
+
+export default PlaylistGrid;
+jsx
+Copy code
+// MusicPage.js
+import React from 'react';
+
+const MusicPage = () => (
+
+  <div>
+    <h1>Music Page</h1>
+    <p>All music will be listed here.</p>
+  </div>
+);
+
+export default MusicPage;
+Step 3: Conditionally Render Components Based on Navigation State
+In your main App component, conditionally render the appropriate component based on the current navigation state.
+
+jsx
+Copy code
+// App.js
+import React from 'react';
+import { NavigationProvider, useNavigation } from './NavigationContext';
+import PlaylistGrid from './PlaylistGrid';
+import MusicPage from './MusicPage';
+
+const App = () => {
+const { currentPage } = useNavigation();
+
+return (
+
+<div>
+{currentPage === 'playlist' && <PlaylistGrid />}
+{currentPage === 'music' && <MusicPage />}
+</div>
+);
+};
+
+const RootApp = () => (
+<NavigationProvider>
+<App />
+</NavigationProvider>
+);
+
+export default RootApp;
 
 ```
-Copy and paste the entirety of the code generated by the AI Tool listed above.
-
-```
-
-_Repeat as needed_
 
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
+```
+
+```
